@@ -1,0 +1,16 @@
+{
+  "name": "base-api",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "description": "A minimalist starter template for building Node.js APIs with MongoDB, complete with Docker support. This template provides a foundation for developing containerized Node.js applications with a MongoDB database, perfect for developers who want to quickly bootstrap a new API project.",
+  "devDependencies": {},
+  "author": "Bilal Tariq",
+  "license": "ISC"
+}

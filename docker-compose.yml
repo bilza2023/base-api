@@ -1,6 +1,6 @@
 services:
   api:
-    image: taleemhelp/base-api:0.1
+    build: .
     restart: unless-stopped
     ports:
       - "5000:5000"
